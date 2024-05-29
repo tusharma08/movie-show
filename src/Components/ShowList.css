@@ -1,0 +1,53 @@
+/* src/components/ShowList.css */
+
+.show-list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .show-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .show-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .show-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .show-item h2 {
+    margin: 0 20px 0 0;
+    font-size: 1.5em;
+    flex: 1;
+  }
+  
+  .show-item p {
+    margin: 0 20px 0 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .show-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .show-item a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .show-item a:hover {
+    text-decoration: underline;
+  }
+  

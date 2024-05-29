@@ -1,0 +1,32 @@
+/* src/components/ShowDetails.css */
+
+.show-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .show-details h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .show-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .show-details button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .show-details button:hover {
+    background-color: #0056b3;
+  }
+  

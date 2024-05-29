@@ -1,12 +1,20 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ShowList from './components/ShowList';
+import ShowDetails from './components/ShowDetails';
+import BookTicketForm from './components/BookTicketForm';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Tushar</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={ShowList} />
+        <Route path="/show/:id" component={ShowDetails} />
+        <Route path="/book/:id" component={BookTicketForm} />
+      </Switch>
+    </Router>
   );
-
-}
+};
 
 export default App;
