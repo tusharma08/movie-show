@@ -26,6 +26,7 @@
     cursor: pointer;
   }
   
+  
   .show-details button:hover {
     background-color: #0056b3;
   }
