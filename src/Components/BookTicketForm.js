@@ -43,8 +43,6 @@ const BookTicketForm = () => {
     return <div>Loading...</div>;
   }
 
-  
-
   return (
     <form onSubmit={handleSubmit} className="book-ticket-form">
       <h2>Book Ticket for {show.name}</h2>
